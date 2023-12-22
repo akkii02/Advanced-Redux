@@ -12,7 +12,7 @@ const CartItem = (props) => {
   }
   
   return (
-    <li className={classes.item}>
+    <li className={classes.item} key={id}>
       <header>
         <h3>{title}</h3>
         <div className={classes.price}>
